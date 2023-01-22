@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.py-vw {
+    padding-top: 25vh/* 192px */;
+    padding-bottom: 35vh/* 192px */;
+}
