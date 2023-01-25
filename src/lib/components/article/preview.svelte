@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { createPath } from '../../../scripts/createPath';
+    import { createPath } from '$lib/scripts/createPath';
 
     export let id: number = 0;
     export let title: string = "Başlıksız Makale";

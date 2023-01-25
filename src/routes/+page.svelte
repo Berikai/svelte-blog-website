@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Sidebar from "./lib/layout/sidebar.svelte";
-    import ArticleList from "./lib/pages/list.svelte";
+    import Sidebar from "$lib/components/layout/sidebar.svelte";
+    import ArticleList from "$lib/components/pages/list.svelte";
 
     // Get data from server-side
     export let data: { articles: Array<Article> };

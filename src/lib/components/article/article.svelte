@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { createPath } from "../../../scripts/createPath";
+	import { createPath } from "$lib/scripts/createPath";
     import SvelteMarkdown from 'svelte-markdown'
 
     export let id: number = 0;

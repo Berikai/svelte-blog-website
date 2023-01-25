@@ -3,7 +3,7 @@
     const pageCapacity: number = 3;
     const paginationLimit: number = 5;
 
-	import ArticlePreview from "../article/preview.svelte";
+	import ArticlePreview from "$lib/components/article/preview.svelte";
 	import Pagination from "./pagination.svelte";
 
     // Get page query for pagination

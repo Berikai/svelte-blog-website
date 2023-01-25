@@ -1,8 +1,8 @@
 <script lang="ts">
     import "../app.css";
-    import Header from "./lib/layout/header.svelte";
-    import Footer from "./lib/layout/footer.svelte";
-	import Head from "./lib/essentials/head.svelte";
+    import Header from "$lib/components/layout/header.svelte";
+    import Footer from "$lib/components/layout/footer.svelte";
+	import Head from "$lib/components/essentials/head.svelte";
 </script>
 
 <Head/>

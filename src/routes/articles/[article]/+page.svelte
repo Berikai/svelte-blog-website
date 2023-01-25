@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Article from "../../lib/article/article.svelte";
+	import Article from "$lib/components/article/article.svelte";
     import type { PageServerData } from "./$types";
     export let data: PageServerData;
 </script>
