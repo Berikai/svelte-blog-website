@@ -17,11 +17,11 @@
                 <i class="fab fa-twitter"></i> Twitter
             </a>
         </div>
-        <nav>
+        <!--<nav>
             <ul class="flex items-center justify-between font-bold text-sm text-white uppercase no-underline">
                 <li><a class="hover:text-gray-200 hover:underline px-4 mx-1 rounded-lg bg-gray-800" href="/sign-in">Giriş yap</a></li>
             </ul>
-        </nav>
+        </nav>-->
     </div>
 
 </nav>

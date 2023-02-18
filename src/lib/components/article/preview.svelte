@@ -22,10 +22,7 @@
             <a href="/articles/{createPath(id, title)}" class="font-semibold hover:text-gray-800">{author}</a> tarafından, {date} tarihinde paylaşıldı
         </a>
         <a href="/articles/{createPath(id, title)}" class="pb-6">{
-        text.length > 372 ? text.substring(0, 372)
-                                .replaceAll('\n', ' ')
-                                .replaceAll('#', '')
-                                .replaceAll('*', '') + '...' : text}</a>
+        text.length > 372 ? text.substring(0, 372).replaceAll('\n', ' ').replaceAll('#', '').replaceAll('*', '') + '...' : text.substring(0, 372).replaceAll('\n', ' ').replaceAll('#', '').replaceAll('*', '')}</a>
         <a href="/articles/{createPath(id, title)}" class="uppercase text-gray-800 hover:text-black">Devamını Oku <i class="fas fa-arrow-right"></i></a>
     </div>
 </article>

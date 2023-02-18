@@ -1,7 +1,7 @@
 import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 import { createPath } from '$lib/scripts/createPath';
-import { getArticles } from '$lib/server/scripts/getArticles';
+import { getArticles } from '$lib/server/scripts/articles';
 
 export const load = (({ params }) => {
     // Send data to page
