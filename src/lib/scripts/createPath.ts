@@ -14,4 +14,4 @@ const turkishToEnglish = (string: string) => {
         .replaceAll('ç','c');
 };
   
-export const createPath = (_id: number, _title: string) => turkishToEnglish(_title).toLowerCase().replaceAll(' ', '-') + '-' + _id.toString();
+export const createPath = (_id: number, _title: string) => encodeURIComponent(turkishToEnglish(_title).toLowerCase().replaceAll(' ', '-')) + '-' + _id.toString();
